@@ -8,6 +8,7 @@ pub fun main() {
     let receiverRef = capability.borrow()
             ?? panic("Could not borrow receiver reference")
 
-    log("Account 2 NFTs")
+    log("WHOS HAS : ")
     log(receiverRef.printwhohas(id: 1))
 }
+ 
